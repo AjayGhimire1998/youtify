@@ -1,9 +1,11 @@
+import Login from "./components/Login";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className=" bg-teal-800 flex justify-center" >
-      <h1 className=" text-white text-3xl font-bold underline">HELOOOO</h1>
-
+    <div className=" h-screen flex justify-center items-center " >
+      <Login />
+      <Main />
     </div>
   );
 }
