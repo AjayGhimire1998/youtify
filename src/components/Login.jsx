@@ -5,10 +5,11 @@ function Login() {
   return (
     <div className=" flex-row items-center justify-center ">
       <div>
-        <h3 className=" text-red-600 text-center">Login</h3>
+        <p className=" text-center font-extrabold text-2xl">Login</p>
       </div>
-      <div className="">
-        <YoutubeSVG />
+      <br />
+      <div className="  cursor-pointer">
+        <YoutubeSVG className="" />
       </div>
     </div>
   );
